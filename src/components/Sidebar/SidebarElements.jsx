@@ -11,10 +11,10 @@ export const SidebarContainer = styled.aside`
   background: #0d0d0d;
   display: grid;
   align-items: center;
-  top: ${({ isOPen }) => (isOPen ? '0' : '-100%')};
+  top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
   left: 0;
   transition: 0.3s ese-in-out;
-  opacity: ${({ isOPen }) => (isOPen ? '100%' : '0')};
+  opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
 `;
 export const Icon = styled.div`
   position: absolute;
