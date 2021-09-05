@@ -1,6 +1,6 @@
 export const homeObjOne = {
   id: 'about',
-  lightBg: true,
+  lightBg: false,
   lightText: true,
   lightTexDesc: true,
   topLine: 'Premium Bank',
@@ -11,7 +11,7 @@ export const homeObjOne = {
   imgStart: false,
   // img: require('../../images/svg-1.svg'),
   alt: 'car',
-  dark: false,
-  primary: false,
+  dark: true,
+  primary: true,
   darkText: false,
 };
