@@ -1,4 +1,4 @@
-var e=Object.defineProperty,t=Object.getOwnPropertySymbols,n=Object.prototype.hasOwnProperty,i=Object.prototype.propertyIsEnumerable,r=(t,n,i)=>n in t?e(t,n,{enumerable:!0,configurable:!0,writable:!0,value:i}):t[n]=i,a=(e,a)=>{for(var o in a||(a={}))n.call(a,o)&&r(e,o,a[o]);if(t)for(var o of t(a))i.call(a,o)&&r(e,o,a[o]);return e};import{s as o,L as l,a as c,r as s,R as m,I as d,F as p,b as x,c as g,d as u,e as f,f as h,g as E,M as b,h as w,i as y,B as v,S as k,j as z,k as S}from"./vendor.3c98261a.js";!function(){const e=document.createElement("link").relList;if(!(e&&e.supports&&e.supports("modulepreload"))){for(const e of document.querySelectorAll('link[rel="modulepreload"]'))t(e);new MutationObserver((e=>{for(const n of e)if("childList"===n.type)for(const e of n.addedNodes)"LINK"===e.tagName&&"modulepreload"===e.rel&&t(e)})).observe(document,{childList:!0,subtree:!0})}function t(e){if(e.ep)return;e.ep=!0;const t=function(e){const t={};return e.integrity&&(t.integrity=e.integrity),e.referrerpolicy&&(t.referrerPolicy=e.referrerpolicy),"use-credentials"===e.crossorigin?t.credentials="include":"anonymous"===e.crossorigin?t.credentials="omit":t.credentials="same-origin",t}(e);fetch(e.href,t)}}();const j=o.nav`
+var e=Object.defineProperty,t=Object.getOwnPropertySymbols,n=Object.prototype.hasOwnProperty,i=Object.prototype.propertyIsEnumerable,r=(t,n,i)=>n in t?e(t,n,{enumerable:!0,configurable:!0,writable:!0,value:i}):t[n]=i,a=(e,a)=>{for(var o in a||(a={}))n.call(a,o)&&r(e,o,a[o]);if(t)for(var o of t(a))i.call(a,o)&&r(e,o,a[o]);return e};import{s as o,L as l,a as c,r as s,R as m,I as d,F as p,b as x,c as u,d as g,e as f,f as h,g as E,M as b,h as w,i as y,B as v,S as k,j as z,k as S}from"./vendor.3c98261a.js";!function(){const e=document.createElement("link").relList;if(!(e&&e.supports&&e.supports("modulepreload"))){for(const e of document.querySelectorAll('link[rel="modulepreload"]'))t(e);new MutationObserver((e=>{for(const n of e)if("childList"===n.type)for(const e of n.addedNodes)"LINK"===e.tagName&&"modulepreload"===e.rel&&t(e)})).observe(document,{childList:!0,subtree:!0})}function t(e){if(e.ep)return;e.ep=!0;const t=function(e){const t={};return e.integrity&&(t.integrity=e.integrity),e.referrerpolicy&&(t.referrerPolicy=e.referrerpolicy),"use-credentials"===e.crossorigin?t.credentials="include":"anonymous"===e.crossorigin?t.credentials="omit":t.credentials="same-origin",t}(e);fetch(e.href,t)}}();const j=o.nav`
   // background: #000;
   background: ${({scrollNav:e})=>e?"#000":"transparent"};
   height: 80px;
@@ -186,7 +186,7 @@ var e=Object.defineProperty,t=Object.getOwnPropertySymbols,n=Object.prototype.ha
 `,W=o.a`
   color: #fff;
   font-size: 24px;
-`,J=()=>m.createElement(A,null,m.createElement(Y,null,m.createElement(D,null,m.createElement(M,null,m.createElement(N,null,m.createElement(U,null,"About Us"),m.createElement(_,{to:"/signin"},"How it works"),m.createElement(_,{to:"/signin"},"Testimonials"),m.createElement(_,{to:"/signin"},"Careers"),m.createElement(_,{to:"/signin"},"Investors"),m.createElement(_,{to:"/signin"},"Terms of Service")),m.createElement(N,null,m.createElement(U,null,"Contact us"),m.createElement(_,{to:"/signin"},"How it works"),m.createElement(_,{to:"/signin"},"Contact"),m.createElement(_,{to:"/signin"},"Support"),m.createElement(_,{to:"/signin"},"Destination"),m.createElement(_,{to:"/signin"},"Sponsorships"))),m.createElement(M,null,m.createElement(N,null,m.createElement(U,null,"Videos"),m.createElement(_,{to:"/signin"},"Submit Video"),m.createElement(_,{to:"/signin"},"Ambassadors"),m.createElement(_,{to:"/signin"},"Agency"),m.createElement(_,{to:"/signin"},"Influencer")),m.createElement(N,null,m.createElement(U,null,"Social Media"),m.createElement(_,{to:"/signin"},"Instagram"),m.createElement(_,{to:"/signin"},"Facebook"),m.createElement(_,{to:"/signin"},"Youtube"),m.createElement(_,{to:"/signin"},"Twiter")))),m.createElement(V,null,m.createElement(G,null,m.createElement(H,{to:"/",onClick:()=>{x.scrollToTop()}},"dolla"),m.createElement(R,null," ","dolla © ",(new Date).getFullYear()," All Rights reserved"),m.createElement(q,null,m.createElement(W,{href:"//www.facebook.com",target:"_blank","aria-label":"Facebook"},m.createElement(g,null)),m.createElement(W,{href:"//www.instagram.com",target:"_blank","aria-label":"Instagrm"},m.createElement(u,null)),m.createElement(W,{href:"//www.youtube.com",target:"_blank","aria-label":"Youtube"},m.createElement(f,null)),m.createElement(W,{href:"//www.twitter.com",target:"_blank","aria-label":"Twitter"},m.createElement(h,null)),m.createElement(W,{href:"//www.linkedin.com",target:"_blank","aria-label":"LinkedIn"},m.createElement(E,null)))))));const K=o(c)`
+`,J=()=>m.createElement(A,null,m.createElement(Y,null,m.createElement(D,null,m.createElement(M,null,m.createElement(N,null,m.createElement(U,null,"About Us"),m.createElement(_,{to:"/signin"},"How it works"),m.createElement(_,{to:"/signin"},"Testimonials"),m.createElement(_,{to:"/signin"},"Careers"),m.createElement(_,{to:"/signin"},"Investors"),m.createElement(_,{to:"/signin"},"Terms of Service")),m.createElement(N,null,m.createElement(U,null,"Contact us"),m.createElement(_,{to:"/signin"},"How it works"),m.createElement(_,{to:"/signin"},"Contact"),m.createElement(_,{to:"/signin"},"Support"),m.createElement(_,{to:"/signin"},"Destination"),m.createElement(_,{to:"/signin"},"Sponsorships"))),m.createElement(M,null,m.createElement(N,null,m.createElement(U,null,"Videos"),m.createElement(_,{to:"/signin"},"Submit Video"),m.createElement(_,{to:"/signin"},"Ambassadors"),m.createElement(_,{to:"/signin"},"Agency"),m.createElement(_,{to:"/signin"},"Influencer")),m.createElement(N,null,m.createElement(U,null,"Social Media"),m.createElement(_,{to:"/signin"},"Instagram"),m.createElement(_,{to:"/signin"},"Facebook"),m.createElement(_,{to:"/signin"},"Youtube"),m.createElement(_,{to:"/signin"},"Twiter")))),m.createElement(V,null,m.createElement(G,null,m.createElement(H,{to:"/",onClick:()=>{x.scrollToTop()}},"dolla"),m.createElement(R,null," ","dolla © ",(new Date).getFullYear()," All Rights reserved"),m.createElement(q,null,m.createElement(W,{href:"//www.facebook.com",target:"_blank","aria-label":"Facebook"},m.createElement(u,null)),m.createElement(W,{href:"//www.instagram.com",target:"_blank","aria-label":"Instagrm"},m.createElement(g,null)),m.createElement(W,{href:"//www.youtube.com",target:"_blank","aria-label":"Youtube"},m.createElement(f,null)),m.createElement(W,{href:"//www.twitter.com",target:"_blank","aria-label":"Twitter"},m.createElement(h,null)),m.createElement(W,{href:"//www.linkedin.com",target:"_blank","aria-label":"LinkedIn"},m.createElement(E,null)))))));const K=o(c)`
   border-radius: 50px;
   white-space: nowrap;
   padding: ${({big:e})=>e?"14px 48px":"12px 30px"};
@@ -333,7 +333,7 @@ var e=Object.defineProperty,t=Object.getOwnPropertySymbols,n=Object.prototype.ha
   letter-spacing: 1.4px;
   text-transform: uppercase;
   margin-bottom: 16px;
-`,ge=o.h2`
+`,ue=o.h2`
   margin-bottom: 24px;
   font-size: 48px;
   line-height: 1.1;
@@ -343,7 +343,7 @@ var e=Object.defineProperty,t=Object.getOwnPropertySymbols,n=Object.prototype.ha
   @media (max-width: 480px) {
     font-size: 32px;
   }
-`,ue=o.p`
+`,ge=o.p`
   max-width: 440px;
   margin-bottom: 35px;
   font-size: 18px;
@@ -360,7 +360,7 @@ var e=Object.defineProperty,t=Object.getOwnPropertySymbols,n=Object.prototype.ha
   width: 100%;
   margin-bottom: 10px;
   padding-right: 0px;
-`,be=({lightBg:e,id:t,imgStart:n,topLine:i,headline:r,lightText:a,description:o,darkText:l,buttonLabel:c,alt:s,img:d,primary:p})=>m.createElement(m.Fragment,null,m.createElement(le,{lightBg:e,id:t},m.createElement(ce,null,m.createElement(se,{imgStart:n},m.createElement(me,null,m.createElement(pe,null,m.createElement(xe,null,i),m.createElement(ge,{lightText:a},r),m.createElement(ue,{darkText:l},o),m.createElement(fe,null,m.createElement(K,{to:"home",smooth:!0,duration:500,spy:!0,exact:"true",offset:-80,primary:p?1:0,smooth:!0,duration:500,spy:!0,exact:"true",offset:-80},c)))),m.createElement(de,null,m.createElement(he,null,m.createElement(Ee,{src:d,alt:s}))))))),we={id:"about",lightBg:!1,lightText:!0,lightTexDesc:!1,topLine:"Premium Bank",headline:"Unlimited Transactions with zero fees",description:"Get access to our exclusing app that allows you to send unlimited transactions without getting charged any fees.",buttonLabel:"Get started",imgStart:!1,img:"../../images/svg-6.svg",alt:"car",dark:!0,primary:!0,darkText:!1},ye={id:"discover",lightBg:!0,lightText:!1,lightTexDesc:!1,topLine:"Unlimited Access",headline:"Login to your account at any time",description:"We have you covered no matteer where you are located. All you need is an internet connection and a phone or computer.",buttonLabel:"Learn more",imgStart:!1,img:"src/images/svg-2.svg",alt:"message",dark:!1,primary:!1,darkText:!0},ve={id:"signup",lightBg:!0,lightText:!1,topLine:"Join our team",headline:"create an account is extreamly easy",description:"get everythings set up and ready in under 10 minutes. all you need to do is add you information and you're ready to go.",buttonLabel:"Start now ",imgStart:!1,img:"src/images/svg-4.svg",alt:"paper",dark:!1,primary:!1,darkText:!0};const ke=o.div`
+`,be=({lightBg:e,id:t,imgStart:n,topLine:i,headline:r,lightText:a,description:o,darkText:l,buttonLabel:c,alt:s,img:d,primary:p})=>m.createElement(m.Fragment,null,m.createElement(le,{lightBg:e,id:t},m.createElement(ce,null,m.createElement(se,{imgStart:n},m.createElement(me,null,m.createElement(pe,null,m.createElement(xe,null,i),m.createElement(ue,{lightText:a},r),m.createElement(ge,{darkText:l},o),m.createElement(fe,null,m.createElement(K,{to:"home",smooth:!0,duration:500,spy:!0,exact:"true",offset:-80,primary:p?1:0,smooth:!0,duration:500,spy:!0,exact:"true",offset:-80},c)))),m.createElement(de,null,m.createElement(he,null,m.createElement(Ee,{src:d,alt:s})))))));var we="/assets/svg-2.ed429c45.svg";const ye={id:"about",lightBg:!1,lightText:!0,lightTexDesc:!1,topLine:"Premium Bank",headline:"Unlimited Transactions with zero fees",description:"Get access to our exclusing app that allows you to send unlimited transactions without getting charged any fees.",buttonLabel:"Get started",imgStart:!1,img:"/assets/svg-6.ece23e7d.svg",alt:"car",dark:!0,primary:!0,darkText:!1},ve={id:"discover",lightBg:!0,lightText:!1,lightTexDesc:!1,topLine:"Unlimited Access",headline:"Login to your account at any time",description:"We have you covered no matteer where you are located. All you need is an internet connection and a phone or computer.",buttonLabel:"Learn more",imgStart:!1,img:we,alt:"message",dark:!1,primary:!1,darkText:!0},ke={id:"signup",lightBg:!0,lightText:!1,topLine:"Join our team",headline:"create an account is extreamly easy",description:"get everythings set up and ready in under 10 minutes. all you need to do is add you information and you're ready to go.",buttonLabel:"Start now ",imgStart:!1,img:"/assets/svg-4.fd40b2d6.svg",alt:"paper",dark:!1,primary:!1,darkText:!0};const ze=o.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -374,7 +374,7 @@ var e=Object.defineProperty,t=Object.getOwnPropertySymbols,n=Object.prototype.ha
   @media (max-width: 480px) {
     height: 1300px;
   }
-`,ze=o.div`
+`,Se=o.div`
   max-width: 1000px;
   margin: 0 auto;
   display: grid;
@@ -390,7 +390,7 @@ var e=Object.defineProperty,t=Object.getOwnPropertySymbols,n=Object.prototype.ha
     grid-template-columns: 1fr;
     padding: 0px 20px;
   }
-`,Se=o.h1`
+`,je=o.h1`
   font-size: 2.5rem;
   text-align: center;
   color: #fff;
@@ -399,7 +399,7 @@ var e=Object.defineProperty,t=Object.getOwnPropertySymbols,n=Object.prototype.ha
   @media (max-width: 480px) {
     font-size: 2rem;
   }
-`,je=o.div`
+`,Te=o.div`
   background: #fff;
   display: flex;
   flex-direction: column;
@@ -416,17 +416,17 @@ var e=Object.defineProperty,t=Object.getOwnPropertySymbols,n=Object.prototype.ha
     transition: all 0.2s ease-in-out;
     cursor: pointer;
   }
-`,Te=o.img`
+`,Le=o.img`
   width: 160px;
   height: 160px;
   margin-bottom: 10px;
-`,Le=o.h2`
+`,$e=o.h2`
   font-size: 1rem;
   margin-bottom: 10px;
-`,$e=o.p`
+`,Oe=o.p`
   font-size: 1rem;
   text-align: center;
-`,Oe=()=>m.createElement(ke,{id:"services"},m.createElement(Se,null,"Our Services"),m.createElement(ze,null,m.createElement(je,null,m.createElement(Te,{src:"/assets/svg-1.97033d4c.svg"}),m.createElement(Le,null,"Reduce Expense"),m.createElement($e,null,"We help reduce your fees and increase your overall revenue")),m.createElement(je,null,m.createElement(Te,{src:"/assets/svg-2.ed429c45.svg"}),m.createElement(Le,null,"Virtual Offices"),m.createElement($e,null,"You can access our platform online anywhere in the world")),m.createElement(je,null,m.createElement(Te,{src:"/assets/svg-3.a293a3b9.svg"}),m.createElement(Le,null,"Premium Benefits"),m.createElement($e,null,"Unlock our special membership acrd that returns 5% cash back.")))),Be=o.aside`
+`,Be=()=>m.createElement(ze,{id:"services"},m.createElement(je,null,"Our Services"),m.createElement(Se,null,m.createElement(Te,null,m.createElement(Le,{src:"/assets/svg-1.97033d4c.svg"}),m.createElement($e,null,"Reduce Expense"),m.createElement(Oe,null,"We help reduce your fees and increase your overall revenue")),m.createElement(Te,null,m.createElement(Le,{src:we}),m.createElement($e,null,"Virtual Offices"),m.createElement(Oe,null,"You can access our platform online anywhere in the world")),m.createElement(Te,null,m.createElement(Le,{src:"/assets/svg-3.a293a3b9.svg"}),m.createElement($e,null,"Premium Benefits"),m.createElement(Oe,null,"Unlock our special membership acrd that returns 5% cash back.")))),Ce=o.aside`
   position: fixed;
   z-index: 999;
   width: 100%;
@@ -438,7 +438,7 @@ var e=Object.defineProperty,t=Object.getOwnPropertySymbols,n=Object.prototype.ha
   left: 0;
   transition: 0.3s ese-in-out;
   opacity: ${({isOpen:e})=>e?"100%":"0"};
-`,Ce=o.div`
+`,Fe=o.div`
   position: absolute;
   top: 1.2rem;
   right: 1.5rem;
@@ -446,11 +446,11 @@ var e=Object.defineProperty,t=Object.getOwnPropertySymbols,n=Object.prototype.ha
   font-size: 2rem;
   cursor: pointer;
   outline: none;
-`,Fe=o(y)`
+`,Ie=o(y)`
   color: #fff;
-`,Ie=o.div`
+`,Pe=o.div`
   color: #fff;
-`,Pe=o.ul`
+`,Ae=o.ul`
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(6, 80px);
@@ -459,7 +459,7 @@ var e=Object.defineProperty,t=Object.getOwnPropertySymbols,n=Object.prototype.ha
   @media (max-width: 480px) {
     grid-template-rows: repeat(6, 60px);
   }
-`,Ae=o(c)`
+`,Ye=o(c)`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -475,10 +475,10 @@ var e=Object.defineProperty,t=Object.getOwnPropertySymbols,n=Object.prototype.ha
     color: #01bf71;
     transition: 0.2s ease-in-out;
   }
-`,Ye=o.div`
+`,De=o.div`
   display: flex;
   justify-content: center;
-`,De=o(l)`
+`,Me=o(l)`
   border-radius: 50px;
   background: #01bf71;
   white-space: nowrap;
@@ -495,7 +495,7 @@ var e=Object.defineProperty,t=Object.getOwnPropertySymbols,n=Object.prototype.ha
     background: #fff;
     color: #010606;
   }
-`,Me=({isOpen:e,toggle:t})=>m.createElement(Be,{isOpen:e,onClick:t},m.createElement(Ce,{onClick:t},m.createElement(Fe,null)),m.createElement(Ie,null,m.createElement(Pe,null,m.createElement(Ae,{onClick:t,to:"home"},"Home"),m.createElement(Ae,{onClick:t,to:"discover"},"Discover"),m.createElement(Ae,{onClick:t,to:"service"},"Services"),m.createElement(Ae,{onClick:t,to:"signup"},"Sign up")),m.createElement(Ye,null,m.createElement(De,{to:"/signin"},"Sign In")))),Ne=()=>{const[e,t]=s.exports.useState(!1),n=()=>t(!e);return m.createElement(m.Fragment,null,m.createElement(P,{toggle:n}),m.createElement(Me,{isOpen:e,toggle:n}),m.createElement(oe,null),m.createElement(be,a({},we)),m.createElement(be,a({},ye)),m.createElement(Oe,null),m.createElement(be,a({},ve)),m.createElement(J,null))},Ue=o.div`
+`,Ne=({isOpen:e,toggle:t})=>m.createElement(Ce,{isOpen:e,onClick:t},m.createElement(Fe,{onClick:t},m.createElement(Ie,null)),m.createElement(Pe,null,m.createElement(Ae,null,m.createElement(Ye,{onClick:t,to:"home"},"Home"),m.createElement(Ye,{onClick:t,to:"discover"},"Discover"),m.createElement(Ye,{onClick:t,to:"service"},"Services"),m.createElement(Ye,{onClick:t,to:"signup"},"Sign up")),m.createElement(De,null,m.createElement(Me,{to:"/signin"},"Sign In")))),Ue=()=>{const[e,t]=s.exports.useState(!1),n=()=>t(!e);return m.createElement(m.Fragment,null,m.createElement(P,{toggle:n}),m.createElement(Ne,{isOpen:e,toggle:n}),m.createElement(oe,null),m.createElement(be,a({},ye)),m.createElement(be,a({},ve)),m.createElement(Be,null),m.createElement(be,a({},ke)),m.createElement(J,null))},_e=o.div`
   postion: fixed;
   bottom: 0;
   left: 0;
@@ -508,7 +508,7 @@ var e=Object.defineProperty,t=Object.getOwnPropertySymbols,n=Object.prototype.ha
     rgba(1, 147, 86, 1) 0%,
     rgba(10, 201, 122, 1) 100%
   );
-`,_e=o.div`
+`,Ve=o.div`
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -516,7 +516,7 @@ var e=Object.defineProperty,t=Object.getOwnPropertySymbols,n=Object.prototype.ha
   @media (max-width: 400px) {
     height: 80%;
   } ;
-`,Ve=o(l)`
+`,Ge=o(l)`
   margin-left: 32px;
   margin-top: 32px;
   text-decoration: none;
@@ -532,7 +532,7 @@ var e=Object.defineProperty,t=Object.getOwnPropertySymbols,n=Object.prototype.ha
     margin-left: 16px;
     margin-top: 8px;
   } ;
-`,Ge=o.div`
+`,He=o.div`
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -540,7 +540,7 @@ var e=Object.defineProperty,t=Object.getOwnPropertySymbols,n=Object.prototype.ha
   @media (max-width: 480px) {
     padding: 10px;
   }
-`,He=o.form`
+`,Re=o.form`
   background: #010101;
   max-width: 400px;
   height: auto;
@@ -555,17 +555,17 @@ var e=Object.defineProperty,t=Object.getOwnPropertySymbols,n=Object.prototype.ha
   @media (max-width: 400px) {
     paddign: 32px;
   }
-`,Re=o.h1`
+`,qe=o.h1`
   margin-bottom: 40px;
   color: #fff;
   font-size: 20px;
   font-weight: 400;
   text-align: center;
-`,qe=o.label`
+`,We=o.label`
   margin-bottom: 8px;
   font-size: 14px;
   color: #fff;
-`,We=o.input`
+`,Je=o.input`
   padding: 16px 16px;
   margin-bottom: 32px;
   border: none;
@@ -575,16 +575,16 @@ var e=Object.defineProperty,t=Object.getOwnPropertySymbols,n=Object.prototype.ha
   &:focus {
     outline: none;
   }
-`,Je=o.button`
+`,Ke=o.button`
   background: #01bf71;
   padding: 16px 0px;
   border: none;
   border-radius: 4px;
   color: #fff;
   font-size: 20px;
-`,Ke=o.span`
+`,Qe=o.span`
   text-align: center;
   margin-top: 24px;
   color: #fff;
   font-size: 14px;
-`,Qe=()=>m.createElement(m.Fragment,null,m.createElement(Ue,null,m.createElement(_e,null,m.createElement(Ve,{to:"/"},"Dolla"),m.createElement(Ge,null,m.createElement(He,{action:"#"},m.createElement(Re,null,"Sign in to Your Account"),m.createElement(qe,{htmlFor:"for"},"Email"),m.createElement(We,{type:"email",placeholder:"Your Email"}),m.createElement(qe,{htmlFor:"for"},"Password"),m.createElement(We,{type:"password",placeholder:"Your Password",required:!0}),m.createElement(Je,null,"Submit"),m.createElement(Ke,null,"Forget Password")))))),Xe=()=>(s.exports.useState(!1),m.createElement(m.Fragment,null,m.createElement(Qe,null)));function Ze(){return m.createElement(v,null,m.createElement(k,null,m.createElement(z,{path:"/",component:Ne,exact:!0}),m.createElement(z,{path:"/signin",component:Xe,exact:!0})))}S.render(m.createElement(Ze,null),document.getElementById("root"));
+`,Xe=()=>m.createElement(m.Fragment,null,m.createElement(_e,null,m.createElement(Ve,null,m.createElement(Ge,{to:"/"},"Dolla"),m.createElement(He,null,m.createElement(Re,{action:"#"},m.createElement(qe,null,"Sign in to Your Account"),m.createElement(We,{htmlFor:"for"},"Email"),m.createElement(Je,{type:"email",placeholder:"Your Email"}),m.createElement(We,{htmlFor:"for"},"Password"),m.createElement(Je,{type:"password",placeholder:"Your Password",required:!0}),m.createElement(Ke,null,"Submit"),m.createElement(Qe,null,"Forget Password")))))),Ze=()=>(s.exports.useState(!1),m.createElement(m.Fragment,null,m.createElement(Xe,null)));function et(){return m.createElement(v,null,m.createElement(k,null,m.createElement(z,{path:"/",component:Ue,exact:!0}),m.createElement(z,{path:"/signin",component:Ze,exact:!0})))}S.render(m.createElement(et,null),document.getElementById("root"));
