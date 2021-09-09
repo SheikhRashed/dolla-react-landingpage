@@ -1,3 +1,7 @@
+import img1 from '../../images/svg-6.svg';
+import img2 from '../../images/svg-2.svg';
+import img3 from '../../images/svg-4.svg';
+
 export const homeObjOne = {
   id: 'about',
   lightBg: false,
@@ -9,7 +13,8 @@ export const homeObjOne = {
     'Get access to our exclusing app that allows you to send unlimited transactions without getting charged any fees.',
   buttonLabel: 'Get started',
   imgStart: false,
-  img: 'src/images/svg-6.svg',
+  // img: 'src/images/svg-6.svg',
+  img: img1,
   alt: 'car',
   dark: true,
   primary: true,
@@ -26,7 +31,8 @@ export const homeObjTwo = {
     'We have you covered no matteer where you are located. All you need is an internet connection and a phone or computer.',
   buttonLabel: 'Learn more',
   imgStart: false,
-  img: 'src/images/svg-2.svg',
+  // img: 'src/images/svg-2.svg',
+  img: img2,
   alt: 'message',
   dark: false,
   primary: false,
@@ -41,7 +47,8 @@ export const homeObjThree = {
   description: `get everythings set up and ready in under 10 minutes. all you need to do is add you information and you're ready to go.`,
   buttonLabel: 'Start now ',
   imgStart: false,
-  img: 'src/images/svg-4.svg',
+  // img: 'src/images/svg-4.svg',`
+  img: img3,
   alt: 'paper',
   dark: false,
   primary: false,

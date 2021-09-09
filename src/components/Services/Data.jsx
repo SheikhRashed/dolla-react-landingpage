@@ -1,5 +1,5 @@
 export const cardOne = {
-  icon: 'src/images/svg-1.svg',
+  // icon: 'src/images/svg-1.svg',
   title: 'Reduce Expense',
   description: 'We help reduce your fees and increase your overall revenue',
 };
