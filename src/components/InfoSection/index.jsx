@@ -1,8 +1,6 @@
 import React from 'react';
 import { Button } from '../ButtonElements';
 
-// import img from '../../images/svg-6.svg';
-
 import {
   InfoContainer,
   InfoWrapper,
