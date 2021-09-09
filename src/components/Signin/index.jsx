@@ -9,6 +9,7 @@ import {
   FormLabel,
   FormWrap,
   Icon,
+  Text,
 } from './SigninElements';
 
 const SignIn = () => {
@@ -30,6 +31,7 @@ const SignIn = () => {
               ></FormInput>
 
               <FormButton>Submit</FormButton>
+              <Text>Forget Password</Text>
             </Form>
           </FormContent>
         </FormWrap>
