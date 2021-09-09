@@ -71,8 +71,9 @@ export const Subtitle = styled.p`
   max-width: 440px;
   margin-bottom: 35px;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 28px;
   color: ${({ darkText }) => (darkText ? '#010606' : '#fff')};
+  text-transform: capitalize;
 `;
 export const BtnWrap = styled.div`
   display: flex;
@@ -87,4 +88,3 @@ export const Img = styled.img`
   margin-bottom: 10px;
   padding-right: 0px;
 `;
-// export const TextWrapper = styled.div``;

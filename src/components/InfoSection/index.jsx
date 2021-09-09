@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from '../ButtonElements';
 
-import Carimg from '../../images/svg-3.svg';
+// import img from '../../images/svg-6.svg';
 
 import {
   InfoContainer,
@@ -29,8 +29,7 @@ const InfoSection = ({
   darkText,
   buttonLabel,
   alt,
-  dark,
-  dark2,
+  img,
   primary,
 }) => {
   return (
@@ -60,7 +59,7 @@ const InfoSection = ({
             </Column1>
             <Column2>
               <ImgWrap>
-                <Img src={Carimg} alt={alt} />
+                <Img src={img} alt={alt} />
               </ImgWrap>
             </Column2>
           </InfoRow>
